@@ -7,4 +7,4 @@ I am planning to start my career as a junior web developer in a reputed software
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 My Profile:
 -------------------------------------------------------------------------
-![UpdatedResume](ZAKARIA_IBRAHIM_2.JPG)
+![UpdatedResume](Zakarai_Ibrahim_25.pdf)
