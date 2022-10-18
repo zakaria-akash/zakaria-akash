@@ -9,4 +9,4 @@ I have been learning and practicing full-stack web development (MERN Stack) for 
 <br />
 My Profile:
 <br /><br />
-![Resume](screen-shots/zakaria-ibrahim-resume.png)
+![Resume](screen-shots/zakaria-ibrahim-resume.jpg)
