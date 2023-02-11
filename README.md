@@ -1,14 +1,14 @@
 Hi there 👋
 <br />
 <br />
-I am ZAKARIA IBRAHIM
+I am **_ZAKARIA IBRAHIM_**
 <br />
 <br />
-I have been learning and practicing full-stack web development (MERN Stack) for the last six months. As I am planning to start my career as a web developer in any reputed software firm. My ultimate career goal is to be a successful full-stack software developer. And, for the right opportunity, I am always ready to relocate.
+I completed my bachelor's degree major in Computer Science and Engineering with excellent academic records. I have developed and deployed some websites using advanced CSS properties, React/Redux, Next.js, Bootstrap, Google Firebase, MongoDB, and other modern web development tools. I have also practiced Node.js/Express.js, Core PHP, and MySQL. I believe that I am a hardworking, self-starter, and quick learner as well as I am passionate about web development.
 <br />
 <br />
 My Profile:
 <br /><br />
 ![Resume Page 1](screen-shots/zakaria-ibrahim-resume_1.jpg)
-<br />
-![Resume Page 1](screen-shots/zakaria-ibrahim-resume_1.jpg)
+<br /> <br />
+![Resume Page 1](screen-shots/zakaria-ibrahim-resume_2.jpg)
