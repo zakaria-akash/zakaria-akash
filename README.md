@@ -1,4 +1,7 @@
-**_ZAKARIA IBRAHIM_**
+Hi there 👋
+<br />
+<br />
+I am **_ZAKARIA IBRAHIM_**
 <br />
 <br />
 My practical experience spans the development and deployment of numerous sophisticated websites utilizing advanced CSS properties, SASS, Bootstrap 5, React.js, Next.js, Node.js, Express.js, Google Firebase, MongoDB, and other contemporary web development tools. Additionally, I possess skills in Core C/C++, Java, PHP, Python (OOP), and MySQL.
@@ -7,4 +10,6 @@ Beyond my technical expertise, I am characterized by my strong work ethic, self-
 <br />
 My Profile:
 <br /><br />
-![Resume Page 1](screen-shots/zakaria_ibrahim-resume.jpg)
+![Resume Page 1](screen-shots/zakaria-ibrahim-resume_1.jpg)
+<br /> <br />
+![Resume Page 1](screen-shots/zakaria-ibrahim-resume_2.jpg)
