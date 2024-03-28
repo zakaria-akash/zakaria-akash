@@ -12,4 +12,3 @@ My Profile:
 <br /><br />
 ![Resume Page 1](screen-shots/zakaria-ibrahim-resume_1.jpg)
 <br /> <br />
-![Resume Page 1](screen-shots/zakaria-ibrahim-resume_2.jpg)
