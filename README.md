@@ -10,5 +10,5 @@ Beyond my technical expertise, I am characterized by my strong work ethic, self-
 <br />
 My Profile:
 <br /><br />
-![Resume Page 1](screen-shots/zakaria-ibrahim-resume_1.jpg)
+![Resume Page 1](screen-shots/Zakaria_Ibrahim_Resume.jpg)
 <br /> <br />
