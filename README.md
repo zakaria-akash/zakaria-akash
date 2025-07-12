@@ -4,8 +4,8 @@ Hi there 👋
 I am **_ZAKARIA IBRAHIM_**
 <br />
 <br />
-My practical experience spans the development and deployment of numerous sophisticated websites utilizing advanced CSS properties, SASS, Bootstrap 5, React.js, Next.js, Node.js, Express.js, Google Firebase, MongoDB, and other contemporary web development tools. Additionally, I possess skills in Core C/C++, Java, PHP, Python (OOP), and MySQL.
-Beyond my technical expertise, I am characterized by my strong work ethic, self-initiative, and aptitude for rapid learning. I am deeply passionate about web application development and committed to delivering high-quality solutions that meet both user requirements and industry standards.
+With a Bachelor’s degree in Computer Science and Engineering and hands-on experience in modern web development, I am confident in my ability to contribute meaningfully to your development team. My practical experience includes building and deploying advanced web applications using technologies such as React.js, Next.js, TypeScript, Bootstrap 5, CSS (including SASS), Firebase, MongoDB, and Bubble.io. I also possess foundational skills in Java, Node.js, MySQL, and n8n(automation).
+Beyond technical skills, I bring a strong work ethic, a proactive learning mindset, and a deep passion for creating efficient, user-centered web applications. I am eager to grow within a dynamic team and contribute to innovative projects that align with industry standards.
 <br />
 <br />
 My Profile:
