@@ -17,7 +17,8 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=zakaria-akash&label=Profile+Views&color=58A6FF&style=flat-square)
+<!-- Resume download — own line, self-hosted SVG so it needs no third-party service -->
+[![Download Resume](assets/download-resume.svg)](https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume_2026.pdf)
 
 </div>
 
@@ -35,8 +36,8 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 - 🏥 Owning a **healthcare platform** end to end — APIs, data modelling, design system, CMS & technical SEO
 - 🌐 Enterprise experience with **Bubble.io** no-code/low-code platform (France & BD clients)
 - 🤖 Exploring **n8n** for intelligent workflow automation
-- 📍 Floor 6, House 67, Probal Housing Society, Mohammadpur, **Dhaka 1207**
-- 📞 **+8801917133759** &nbsp;|&nbsp; 📧 **zakariabion25@gmail.com**
+- 📍 Madani Avenue, Gulshan 2, **Dhaka 1212**, Bangladesh
+- 📞 **+8801737915292** &nbsp;|&nbsp; 📧 **zakariabion25@gmail.com**
 
 <br clear="right"/>
 
@@ -119,55 +120,56 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 <tr>
 <td width="50%">
 
-### 🛍️ Repliq E-Store
-**Full-Stack eCommerce Platform**
+### 🏥 Care Bangla
+**Full-Stack Healthcare Operations Platform · Professional**
 
-A modern eCommerce site built with **React.js & Next.js** featuring product listings, cart management, and a complete checkout flow.
+Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal and a self-built staff CMS — all sharing **one domain model, media system and auth boundary**.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://repliq-e-store-ecommerce.vercel.app)
-[![Source Code](https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/repliq-e-store-ecommerce)
+[![Live Site](https://img.shields.io/badge/Live%20Site-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://care-bangla-official-site.vercel.app/)
+[![Case Study](https://img.shields.io/badge/Case%20Study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application)
 
-`React.js` `Next.js` `Vercel`
+`Next.js 16` `React 18` `MongoDB` `Mongoose` `RTK Query` `GridFS` `Zod` `JWT`
 
 </td>
 <td width="50%">
 
-### 📅 Next Events Portal
-**Event Sharing Web Application**
+### 🫧 RapidMart
+**Real-Time B2B/B2C Commerce Platform**
 
-A full-featured event sharing platform with **React.js & Next.js** for creating, browsing, and sharing events with a clean, modern UI.
+A high-frequency, event-driven commerce platform pairing consumer retail speed with industrial procurement logic — **WebSocket** price/stock ticks, an **RFQ negotiation engine**, tiered pricing and Stripe Payment Intents.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://next-events-portal.netlify.app)
-[![Source Code](https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/next-events-webportal-react-next.js)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://rapid-mart.netlify.app/)
+[![Source Code](https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/rapid-mart)
 
-`React.js` `Next.js` `Netlify`
+`Next.js 16` `React 19` `TypeScript` `Tailwind v4` `MongoDB` `Stripe` `Redis` `Vitest`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 👗 Glee Fashion Mart
-**Fashion eCommerce Store**
+### ⚡ Betopia PulseGrid
+**Corporate CMS & Live-Chat Platform · Professional**
 
-A stylish fashion eCommerce platform with a modern UI, rich product catalog, and a smooth, intuitive shopping experience.
+Corporate platform for an energy & supply-chain business: marketing site, MongoDB-backed CMS with a section-based page editor, contact inbox, managed media and a persistent two-way live-chat channel.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://glee-fashion-mart-bd.netlify.app)
-[![Source Code](https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/glee-fashion-mart-e-commerce)
+[![Live App](https://img.shields.io/badge/Live%20App-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://betopia-pulse-grid-fullstack.vercel.app/)
+[![Case Study](https://img.shields.io/badge/Case%20Study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/betopia-pulsegrid-full-stack-app)
 
-`React.js` `Bootstrap` `Netlify`
+`Next.js 16` `React 19` `MongoDB` `GridFS` `Tailwind v4` `jose` `Framer Motion`
 
 </td>
 <td width="50%">
 
-### 🌐 Hiscale — Digital Marketing SaaS
-**Enterprise No-Code Platform · Professional**
+### 👗 Fashion Mart
+**High-Fidelity Apparel Marketplace**
 
-Large-scale digital marketing & campaign management platform built on **Bubble.io** for a Paris-based international client.
+A production-ready fashion storefront with dual-layer authentication, an isolated admin inventory portal, guest→user cart/wishlist merging, **GridFS** image streaming and an automated data-sync pipeline.
 
-[![Live Platform](https://img.shields.io/badge/Live%20Platform-0F172A?style=flat-square&logoColor=white)](https://app.hiscale.ai)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://fashion-mart-website.vercel.app)
+[![Source Code](https://img.shields.io/badge/Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/fashion-mart-website)
 
-`Bubble.io` `No-Code` `SaaS` `Enterprise`
+`Next.js 15` `React 19` `Tailwind v4` `MongoDB` `Mongoose` `GridFS` `Vercel`
 
 </td>
 </tr>
@@ -279,7 +281,7 @@ Large-scale digital marketing & campaign management platform built on **Bubble.i
 
 **💬 Open to exciting opportunities and collaborations!**
 
-📧 [zakariabion25@gmail.com](mailto:zakariabion25@gmail.com) &nbsp;|&nbsp; 📞 +8801917133759 &nbsp;|&nbsp; 📍 Dhaka, Bangladesh
+📧 [zakariabion25@gmail.com](mailto:zakariabion25@gmail.com) &nbsp;|&nbsp; 📞 +8801737915292 &nbsp;|&nbsp; 📍 Dhaka, Bangladesh
 
 <br/>
 
