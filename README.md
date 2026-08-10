@@ -4,7 +4,7 @@
 <div align="center">
 
 <!-- Animated Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=700&height=130&lines=Junior+Full-Stack+Developer+%40+Betopia+Group+Ltd.;React.js+%7C+Next.js+%7C+Node.js+%7C+Express.js;Building+Modern+%26+Scalable+Web+Applications;Based+in+Dhaka%2C+Bangladesh" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=700&height=130&lines=Full+Stack+Web+Developer+%40+Care+Bangla+Ltd.;React.js+%7C+Next.js+%7C+Node.js+%7C+MongoDB;Building+Modern+%26+Scalable+Web+Applications;Based+in+Dhaka%2C+Bangladesh" alt="Typing SVG"/>
 
 <br/>
 <br/>
@@ -14,7 +14,6 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zakariabion25@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yzakaria-ibrahim)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zakaria-akash)
-[![Resume PDF](https://img.shields.io/badge/Download%20Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume.pdf)
 
 <br/>
 
@@ -30,9 +29,10 @@
 
 I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for building clean, efficient, and user-centered web applications. With a CS degree and solid industry experience across multiple companies, I craft scalable digital solutions that make a real impact.
 
-- 🏢 **Currently:** Junior Full-Stack Developer @ **[Betopia Group Ltd.](https://betopiagroup.com)** *(Jan 2026 – Present)*
+- 🏢 **Currently:** Full Stack Web Developer @ **Care Bangla Ltd.** *(June 2026 – Present)*
 - 🎓 **BSc in Computer Science & Engineering** — University of Liberal Arts Bangladesh *(CGPA: 3.92)*
-- 💡 Passionate about **React.js, Next.js, Node.js** and modern full-stack architecture
+- 💡 Passionate about **React.js, Next.js, Node.js, MongoDB** and modern full-stack architecture
+- 🏥 Owning a **healthcare platform** end to end — APIs, data modelling, design system, CMS & technical SEO
 - 🌐 Enterprise experience with **Bubble.io** no-code/low-code platform (France & BD clients)
 - 🤖 Exploring **n8n** for intelligent workflow automation
 - 📍 Floor 6, House 67, Probal Housing Society, Mohammadpur, **Dhaka 1207**
@@ -48,7 +48,23 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 <tr>
 <td>
 
-### 🔵 Junior Full-Stack Developer &nbsp; `Jan 2026 – Present`
+### 🟣 Full Stack Web Developer &nbsp; `June 2026 – Present`
+**Care Bangla Ltd.** &nbsp;·&nbsp; Dhaka, Bangladesh
+
+- Own the architecture and development of the company's **healthcare platform** end to end, across the **Next.js/React** frontend, **Node.js** API layer and **MongoDB** data tier
+- Design and evolve the **database schema and domain models** — indexing, aggregation queries, file storage and backward-compatible migrations that preserve existing production data
+- Build and maintain **server-side APIs and business logic** for service bookings, orders, recruitment workflows and third-party integrations, with request validation, authentication and **role-based access control**
+- Develop and extend the frontend **component library and design system**, delivering responsive, accessible and **bilingual** interfaces across all breakpoints
+- Maintain the **in-house CMS** so non-technical staff retain full control of public content, media and page configuration without developer involvement
+- Own **technical SEO and site performance** — structured data, metadata, canonicalisation, redirects, sitemaps and **Core Web Vitals** — safeguarding search rankings as the platform grows
+- Deliver new features and integrations through the **full lifecycle**, from technical design and implementation to deployment, production support and documentation
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🔵 Junior Full-Stack Developer &nbsp; `Jan 2026 – May 2026`
 **[Betopia Group Ltd.](https://betopiagroup.com)** &nbsp;·&nbsp; Dhaka, Bangladesh
 
 - Dynamic & responsive front-end development using **React.js / Next.js**
@@ -181,9 +197,12 @@ Large-scale digital marketing & campaign management platform built on **Bubble.i
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 **🔨 Tools & Platforms**
 
@@ -195,6 +214,21 @@ Large-scale digital marketing & campaign management platform built on **Bubble.i
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Bubble.io](https://img.shields.io/badge/Bubble.io-1C1E21?style=for-the-badge&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+
+**🏗️ Architecture & Practices**
+
+![System Design](https://img.shields.io/badge/System_Design-0F172A?style=for-the-badge&logoColor=white)
+![Database Schema Design](https://img.shields.io/badge/Database_Schema_Design-0F172A?style=for-the-badge&logoColor=white)
+![Aggregation Pipelines](https://img.shields.io/badge/Aggregation_Pipelines-0F172A?style=for-the-badge&logoColor=white)
+![Schema Migrations](https://img.shields.io/badge/Schema_Migrations-0F172A?style=for-the-badge&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC_%26_Auth-0F172A?style=for-the-badge&logoColor=white)
+![Design Systems](https://img.shields.io/badge/Design_Systems-0F172A?style=for-the-badge&logoColor=white)
+![CMS](https://img.shields.io/badge/CMS_Development-0F172A?style=for-the-badge&logoColor=white)
+![i18n](https://img.shields.io/badge/i18n_%2F_Bilingual_UI-0F172A?style=for-the-badge&logoColor=white)
+![Accessibility](https://img.shields.io/badge/Accessibility_(a11y)-0F172A?style=for-the-badge&logoColor=white)
+![Technical SEO](https://img.shields.io/badge/Technical_SEO-0F172A?style=for-the-badge&logoColor=white)
+![Structured Data](https://img.shields.io/badge/Structured_Data-0F172A?style=for-the-badge&logoColor=white)
+![Core Web Vitals](https://img.shields.io/badge/Core_Web_Vitals-0F172A?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -238,22 +272,6 @@ Large-scale digital marketing & campaign management platform built on **Bubble.i
 | Degree | Institution | CGPA | Year |
 |--------|------------|------|------|
 | **Bachelor of Science — Computer Science & Engineering** | University of Liberal Arts Bangladesh | **3.92** | 2020 |
-
----
-
-## 📄 Resume
-
-<div align="center">
-
-<a href="https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume.pdf">
-  <img src="screen-shots/Zakaria_Ibrahim_Resume.jpg" width="660" alt="Zakaria Ibrahim — Full Resume Preview"/>
-</a>
-
-<br/><br/>
-
-[![Download Full Resume PDF](https://img.shields.io/badge/Download%20Full%20Resume%20PDF-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume.pdf)
-
-</div>
 
 ---
 
