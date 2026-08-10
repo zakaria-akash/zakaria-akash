@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Zakaria Ibrahim — Full Stack Web Developer</title>
+<style>
+/* ============================================================
+   Print source for Zakaria_Ibrahim_Resume_2026.pdf
+   A4 · light background · GitHub-profile visual language
+   Rendered with: chrome --headless --print-to-pdf
+   ============================================================ */
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+:root {
+  --fg: #1f2328;
+  --fg-muted: #59636e;
+  --fg-subtle: #6e7781;
+  --accent: #0969da;
+  --border: #d1d9e0;
+  --border-soft: #e4e8ed;
+  --surface: #f6f8fa;
+  --white: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  color: var(--fg);
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 8.9pt;
+  line-height: 1.36;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.emoji {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  font-size: .95em;
+}
+
+a { color: var(--accent); text-decoration: none; }
+
+/* ---------- Hero ---------- */
+.hero {
+  background: linear-gradient(135deg, #f6f8fa 0%, #eef2f6 55%, #e8eef5 100%);
+  border-bottom: 3px solid var(--accent);
+  padding: 8mm 14mm 6.5mm;
+  display: flex;
+  align-items: center;
+  gap: 8mm;
+}
+.hero-text { flex: 1; min-width: 0; }
+.hero h1 {
+  margin: 0 0 .8mm;
+  font-size: 22pt;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  color: #0d1117;
+}
+.hero .role {
+  margin: 0 0 3mm;
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: .01em;
+}
+.hero .contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6mm 5mm;
+  font-size: 8.6pt;
+  color: var(--fg-muted);
+}
+.hero .contact span { display: inline-flex; align-items: center; gap: 1.4mm; }
+.hero .contact a { color: var(--fg-muted); }
+.avatar {
+  width: 26mm;
+  height: 26mm;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5pt solid #ffffff;
+  box-shadow: 0 0 0 1pt var(--border);
+  flex-shrink: 0;
+}
+
+/* ---------- Page body ---------- */
+.wrap { padding: 0 14mm 7mm; }
+
+section { margin-top: 4.2mm; }
+
+h2 {
+  margin: 0 0 2.4mm;
+  padding-bottom: 1.2mm;
+  border-bottom: 1px solid var(--border);
+  font-size: 12.5pt;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #0d1117;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .emoji { margin-right: 1.5mm; }
+
+p { margin: 0 0 2.5mm; }
+strong { font-weight: 600; color: #0d1117; }
+
+ul { margin: 0; padding-left: 4.6mm; }
+li { margin-bottom: .5mm; }
+li::marker { color: var(--fg-subtle); }
+
+/* ---------- About ---------- */
+.summary {
+  font-size: 9.3pt;
+  line-height: 1.48;
+  color: #24292f;
+  margin-bottom: 2.4mm;
+}
+.about-list { columns: 1; }
+.about-list li { margin-bottom: .7mm; }
+
+/* ---------- Experience ---------- */
+.job {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2.5mm 3.2mm 2.2mm;
+  margin-bottom: 1.9mm;
+  background: var(--white);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.job.current { background: #f6f9fc; border-color: #c8d9ec; }
+.job-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4mm;
+  margin-bottom: .8mm;
+}
+.job-title { font-size: 10.4pt; font-weight: 600; color: #0d1117; }
+.job-title .dot { margin-right: 1.4mm; }
+.date-pill {
+  flex-shrink: 0;
+  font-family: Consolas, "SF Mono", Menlo, monospace;
+  font-size: 8pt;
+  font-weight: 600;
+  color: var(--fg-muted);
+  background: #eff2f5;
+  border: 1px solid var(--border-soft);
+  border-radius: 4px;
+  padding: .6mm 2mm;
+  white-space: nowrap;
+}
+.job-meta {
+  font-size: 8.6pt;
+  color: var(--fg-muted);
+  margin-bottom: 1.5mm;
+}
+.job-meta .co { font-weight: 600; color: #0d1117; }
+.job-meta a.co { color: var(--accent); }
+.job ul { font-size: 8.8pt; }
+
+/* ---------- Projects ---------- */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+}
+.proj {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2.4mm 3mm;
+  background: var(--white);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.proj h3 {
+  margin: 0 0 .6mm;
+  font-size: 10pt;
+  font-weight: 600;
+  color: #0d1117;
+}
+.proj .sub {
+  font-size: 8.4pt;
+  font-weight: 600;
+  color: var(--fg-muted);
+  margin-bottom: 1.6mm;
+}
+.proj p.desc {
+  font-size: 8.5pt;
+  line-height: 1.4;
+  margin-bottom: 1.8mm;
+  color: #32383f;
+}
+.proj .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6mm;
+  margin-bottom: 2mm;
+}
+.lnk {
+  font-size: 7.6pt;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: .7mm 1.8mm;
+  color: #fff;
+}
+.lnk.demo { background: #00a693; }
+.lnk.src { background: #24292f; }
+.tags { display: flex; flex-wrap: wrap; gap: 1.4mm; }
+.tag {
+  font-family: Consolas, "SF Mono", Menlo, monospace;
+  font-size: 7.4pt;
+  color: var(--fg-muted);
+  background: #eff2f5;
+  border-radius: 3px;
+  padding: .5mm 1.6mm;
+}
+
+/* ---------- Tech stack ---------- */
+.stack-group { margin-bottom: 2.4mm; break-inside: avoid; page-break-inside: avoid; }
+.stack-label {
+  font-size: 8.8pt;
+  font-weight: 600;
+  color: #0d1117;
+  margin-bottom: 1.4mm;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 1.2mm; }
+.chip {
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+  padding: .85mm 1.9mm;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.chip.dark-text { color: #1f2328; }
+.chip.outline {
+  background: #fff;
+  color: #30363d;
+  border: 1px solid #b7c0c9;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+
+/* ---------- Education ---------- */
+table.edu {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+table.edu th, table.edu td {
+  border: 1px solid var(--border);
+  padding: 1.8mm 3mm;
+  text-align: left;
+}
+table.edu th {
+  background: var(--surface);
+  font-weight: 600;
+  font-size: 8.6pt;
+  color: #0d1117;
+}
+table.edu td.center, table.edu th.center { text-align: center; }
+
+/* ---------- Closing ---------- */
+.closing {
+  margin-top: 4.2mm;
+  padding: 2.8mm;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: 6px;
+  background: var(--surface);
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.closing .headline {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #0d1117;
+  margin-bottom: 1.6mm;
+}
+.closing .line {
+  font-size: 8.8pt;
+  color: var(--fg-muted);
+  margin-bottom: 1.6mm;
+}
+.closing .note { font-size: 8.2pt; color: var(--fg-subtle); font-style: italic; margin: 0; }
+
+.sep { color: var(--border); margin: 0 1.5mm; }
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <div class="hero-text">
+    <h1>Zakaria Ibrahim</h1>
+    <p class="role">Full Stack Web Developer</p>
+    <div class="contact">
+      <span><span class="emoji">📧</span> <a href="mailto:zakariabion25@gmail.com">zakariabion25@gmail.com</a></span>
+      <span><span class="emoji">📞</span> +8801917133759</span>
+      <span><span class="emoji">📍</span> Mohammadpur, Dhaka 1207, Bangladesh</span>
+      <span><span class="emoji">💼</span> <a href="https://linkedin.com/in/yzakaria-ibrahim">linkedin.com/in/yzakaria-ibrahim</a></span>
+      <span><span class="emoji">💻</span> <a href="https://github.com/zakaria-akash">github.com/zakaria-akash</a></span>
+    </div>
+  </div>
+  <img class="avatar" src="__AVATAR__" alt="Zakaria Ibrahim"/>
+</div>
+
+<div class="wrap">
+
+<!-- ================= ABOUT ================= -->
+<section>
+  <h2><span class="emoji">🧑‍💻</span>About Me</h2>
+  <p class="summary">I'm a <strong>Full-Stack Web Developer</strong> from Dhaka, Bangladesh with a passion for building clean, efficient, and user-centered web applications. With a CS degree and solid industry experience across multiple companies, I craft scalable digital solutions that make a real impact.</p>
+  <ul class="about-list">
+    <li><span class="emoji">🏢</span> <strong>Currently:</strong> Full Stack Web Developer @ <strong>Care Bangla Ltd.</strong> <em>(June 2026 – Present)</em></li>
+    <li><span class="emoji">🎓</span> <strong>BSc in Computer Science &amp; Engineering</strong> — University of Liberal Arts Bangladesh <em>(CGPA: 3.92)</em></li>
+    <li><span class="emoji">💡</span> Passionate about <strong>React.js, Next.js, Node.js, MongoDB</strong> and modern full-stack architecture</li>
+    <li><span class="emoji">🏥</span> Owning a <strong>healthcare platform</strong> end to end — APIs, data modelling, design system, CMS &amp; technical SEO</li>
+    <li><span class="emoji">🌐</span> Enterprise experience with <strong>Bubble.io</strong> no-code/low-code platform (France &amp; BD clients)</li>
+    <li><span class="emoji">🤖</span> Exploring <strong>n8n</strong> for intelligent workflow automation</li>
+  </ul>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section>
+  <h2><span class="emoji">💼</span>Work Experience</h2>
+
+  <div class="job current">
+    <div class="job-head">
+      <div class="job-title"><span class="emoji dot">🟣</span>Full Stack Web Developer</div>
+      <div class="date-pill">June 2026 – Present</div>
+    </div>
+    <div class="job-meta"><span class="co">Care Bangla Ltd.</span> <span class="sep">·</span> Dhaka, Bangladesh</div>
+    <ul>
+      <li>Own the architecture and development of the company's <strong>healthcare platform</strong> end to end, across the <strong>Next.js/React</strong> frontend, <strong>Node.js</strong> API layer and <strong>MongoDB</strong> data tier</li>
+      <li>Design and evolve the <strong>database schema and domain models</strong> — indexing, aggregation queries, file storage and backward-compatible migrations that preserve existing production data</li>
+      <li>Build and maintain <strong>server-side APIs and business logic</strong> for service bookings, orders, recruitment workflows and third-party integrations, with request validation, authentication and <strong>role-based access control</strong></li>
+      <li>Develop and extend the frontend <strong>component library and design system</strong>, delivering responsive, accessible and <strong>bilingual</strong> interfaces across all breakpoints</li>
+      <li>Maintain the <strong>in-house CMS</strong> so non-technical staff retain full control of public content, media and page configuration without developer involvement</li>
+      <li>Own <strong>technical SEO and site performance</strong> — structured data, metadata, canonicalisation, redirects, sitemaps and <strong>Core Web Vitals</strong> — safeguarding search rankings as the platform grows</li>
+      <li>Deliver new features and integrations through the <strong>full lifecycle</strong>, from technical design and implementation to deployment, production support and documentation</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title"><span class="emoji dot">🔵</span>Junior Full-Stack Developer</div>
+      <div class="date-pill">Jan 2026 – May 2026</div>
+    </div>
+    <div class="job-meta"><a class="co" href="https://betopiagroup.com">Betopia Group Ltd.</a> <span class="sep">·</span> Dhaka, Bangladesh</div>
+    <ul>
+      <li>Dynamic &amp; responsive front-end development using <strong>React.js / Next.js</strong></li>
+      <li>Robust back-end &amp; REST API implementation using <strong>Node.js / Express.js</strong></li>
+      <li>Close collaboration with UI/UX designers for seamless user experiences</li>
+      <li>Write clean, maintainable, and well-documented code</li>
+      <li>Debug, troubleshoot, and resolve technical issues efficiently</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title"><span class="emoji dot">🟠</span>Software Engineer</div>
+      <div class="date-pill">Aug 2025 – Dec 2025</div>
+    </div>
+    <div class="job-meta"><a class="co" href="https://kingdigital.com.bd">King Digital Recharge Ltd.</a> <span class="sep">·</span> Dhaka, Bangladesh</div>
+    <ul>
+      <li>Built and maintained responsive web applications using <strong>React.js, Next.js &amp; Spring Boot</strong></li>
+      <li>Implemented state management with <strong>Redux Toolkit</strong> &amp; <strong>Context API</strong>; integrated REST APIs for scalable, data-driven apps</li>
+      <li>Developed and maintained reusable UI components leveraging <strong>Bootstrap</strong> &amp; <strong>Tailwind CSS</strong></li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title"><span class="emoji dot">🟡</span>Frontend Developer — Remote</div>
+      <div class="date-pill">Jan 2025 – Jun 2025</div>
+    </div>
+    <div class="job-meta"><a class="co" href="https://hiscale.agency">Hiscale</a> <span class="sep">·</span> Paris, France</div>
+    <ul>
+      <li>Designed, developed, and automated large-scale web applications using the <strong>Bubble.io</strong> platform</li>
+      <li><strong>Delivered:</strong> <a href="https://app.hiscale.ai"><strong>app.hiscale.ai</strong></a> — Enterprise digital marketing &amp; campaign management SaaS</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title"><span class="emoji dot">🟢</span>Junior Software Engineer</div>
+      <div class="date-pill">Jan 2023 – Feb 2024</div>
+    </div>
+    <div class="job-meta"><a class="co" href="https://olobird.com">OloBird</a></div>
+    <ul>
+      <li>Designed, developed, and sustained web applications utilizing the <strong>Bubble.io</strong> platform</li>
+      <li><strong>Delivered:</strong> <a href="https://olobird-002.bubbleapps.io/version-test/"><strong>olobird-002.bubbleapps.io</strong></a> — Company public website</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section>
+  <h2><span class="emoji">🚀</span>Featured Projects</h2>
+  <div class="projects">
+
+    <div class="proj">
+      <h3><span class="emoji">🛍️</span> Repliq E-Store</h3>
+      <div class="sub">Full-Stack eCommerce Platform</div>
+      <p class="desc">A modern eCommerce site built with <strong>React.js &amp; Next.js</strong> featuring product listings, cart management, and a complete checkout flow.</p>
+      <div class="links">
+        <a class="lnk demo" href="https://repliq-e-store-ecommerce.vercel.app">Live Demo</a>
+        <a class="lnk src" href="https://github.com/zakaria-akash/repliq-e-store-ecommerce">Source Code</a>
+      </div>
+      <div class="tags"><span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">Vercel</span></div>
+    </div>
+
+    <div class="proj">
+      <h3><span class="emoji">📅</span> Next Events Portal</h3>
+      <div class="sub">Event Sharing Web Application</div>
+      <p class="desc">A full-featured event sharing platform with <strong>React.js &amp; Next.js</strong> for creating, browsing, and sharing events with a clean, modern UI.</p>
+      <div class="links">
+        <a class="lnk demo" href="https://next-events-portal.netlify.app">Live Demo</a>
+        <a class="lnk src" href="https://github.com/zakaria-akash/next-events-webportal-react-next.js">Source Code</a>
+      </div>
+      <div class="tags"><span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">Netlify</span></div>
+    </div>
+
+    <div class="proj">
+      <h3><span class="emoji">👗</span> Glee Fashion Mart</h3>
+      <div class="sub">Fashion eCommerce Store</div>
+      <p class="desc">A stylish fashion eCommerce platform with a modern UI, rich product catalog, and a smooth, intuitive shopping experience.</p>
+      <div class="links">
+        <a class="lnk demo" href="https://glee-fashion-mart-bd.netlify.app">Live Demo</a>
+        <a class="lnk src" href="https://github.com/zakaria-akash/glee-fashion-mart-e-commerce">Source Code</a>
+      </div>
+      <div class="tags"><span class="tag">React.js</span><span class="tag">Bootstrap</span><span class="tag">Netlify</span></div>
+    </div>
+
+    <div class="proj">
+      <h3><span class="emoji">🌐</span> Hiscale — Digital Marketing SaaS</h3>
+      <div class="sub">Enterprise No-Code Platform · Professional</div>
+      <p class="desc">Large-scale digital marketing &amp; campaign management platform built on <strong>Bubble.io</strong> for a Paris-based international client.</p>
+      <div class="links">
+        <a class="lnk src" href="https://app.hiscale.ai">Live Platform</a>
+      </div>
+      <div class="tags"><span class="tag">Bubble.io</span><span class="tag">No-Code</span><span class="tag">SaaS</span><span class="tag">Enterprise</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= TECH STACK ================= -->
+<section>
+  <h2><span class="emoji">🛠️</span>Tech Stack</h2>
+
+  <div class="stack-group">
+    <div class="stack-label"><span class="emoji">⚛️</span> Frontend</div>
+    <div class="chips">
+      <span class="chip" style="background:#20232A">React</span>
+      <span class="chip" style="background:#000000">Next.js</span>
+      <span class="chip" style="background:#007ACC">TypeScript</span>
+      <span class="chip dark-text" style="background:#F7DF1E">JavaScript</span>
+      <span class="chip" style="background:#764ABC">Redux</span>
+      <span class="chip" style="background:#0769AD">jQuery</span>
+      <span class="chip" style="background:#E34F26">HTML5</span>
+      <span class="chip" style="background:#1572B6">CSS3</span>
+      <span class="chip" style="background:#CC6699">Sass</span>
+      <span class="chip" style="background:#563D7C">Bootstrap</span>
+      <span class="chip" style="background:#06B6D4">Tailwind CSS</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <div class="stack-label"><span class="emoji">🔧</span> Backend &amp; Database</div>
+    <div class="chips">
+      <span class="chip" style="background:#339933">Node.js</span>
+      <span class="chip" style="background:#000000">Express.js</span>
+      <span class="chip" style="background:#6DB33F">Spring Boot</span>
+      <span class="chip" style="background:#4EA94B">MongoDB</span>
+      <span class="chip" style="background:#880000">Mongoose</span>
+      <span class="chip" style="background:#005C84">MySQL</span>
+      <span class="chip dark-text" style="background:#FFCA28">Firebase</span>
+      <span class="chip" style="background:#ED8B00">Java</span>
+      <span class="chip" style="background:#005571">REST API</span>
+      <span class="chip" style="background:#000000">JWT Auth</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <div class="stack-label"><span class="emoji">🔨</span> Tools &amp; Platforms</div>
+    <div class="chips">
+      <span class="chip" style="background:#E44C30">Git</span>
+      <span class="chip" style="background:#181717">GitHub</span>
+      <span class="chip" style="background:#007ACC">VS Code</span>
+      <span class="chip" style="background:#FF6C37">Postman</span>
+      <span class="chip" style="background:#000000">Vercel</span>
+      <span class="chip" style="background:#00C7B7">Netlify</span>
+      <span class="chip" style="background:#1C1E21">Bubble.io</span>
+      <span class="chip" style="background:#EA4B71">n8n</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
+    <div class="stack-label"><span class="emoji">🏗️</span> Architecture &amp; Practices</div>
+    <div class="chips">
+      <span class="chip outline">System Design</span>
+      <span class="chip outline">Database Schema Design</span>
+      <span class="chip outline">Aggregation Pipelines</span>
+      <span class="chip outline">Schema Migrations</span>
+      <span class="chip outline">RBAC &amp; Auth</span>
+      <span class="chip outline">Design Systems</span>
+      <span class="chip outline">CMS Development</span>
+      <span class="chip outline">i18n / Bilingual UI</span>
+      <span class="chip outline">Accessibility (a11y)</span>
+      <span class="chip outline">Technical SEO</span>
+      <span class="chip outline">Structured Data</span>
+      <span class="chip outline">Core Web Vitals</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section>
+  <h2><span class="emoji">🎓</span>Education</h2>
+  <table class="edu">
+    <thead>
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th class="center">CGPA</th>
+        <th class="center">Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Bachelor of Science — Computer Science &amp; Engineering</strong></td>
+        <td>University of Liberal Arts Bangladesh</td>
+        <td class="center"><strong>3.92</strong></td>
+        <td class="center">2020</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ================= CLOSING ================= -->
+<div class="closing">
+  <div class="headline"><span class="emoji">💬</span> Open to exciting opportunities and collaborations!</div>
+  <div class="line">
+    <span class="emoji">📧</span> <a href="mailto:zakariabion25@gmail.com">zakariabion25@gmail.com</a>
+    <span class="sep">|</span>
+    <span class="emoji">📞</span> +8801917133759
+    <span class="sep">|</span>
+    <span class="emoji">📍</span> Dhaka, Bangladesh
+  </div>
+  <p class="note"><span class="emoji">⭐</span> If you find my work interesting, feel free to star my repos and connect!</p>
+</div>
+
+</div>
+</body>
+</html>
