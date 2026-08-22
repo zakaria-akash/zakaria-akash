@@ -17,6 +17,8 @@
 
 <br/>
 
+[![Download current README PDF](https://img.shields.io/badge/Download%20current%20README%20PDF-0969DA?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/zakaria-akash/zakaria-akash/raw/main/generated/README.pdf)
+
 </div>
 
 ---
