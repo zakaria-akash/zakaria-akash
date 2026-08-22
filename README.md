@@ -17,9 +17,6 @@
 
 <br/>
 
-<!-- Resume download — own line, self-hosted SVG so it needs no third-party service -->
-[![Download Resume](assets/download-resume.svg)](https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume_2026.pdf)
-
 </div>
 
 ---
@@ -123,12 +120,12 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 ### 🏥 Care Bangla
 **Full-Stack Healthcare Operations Platform · Professional**
 
-Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal and a self-built staff CMS — all sharing **one domain model, media system and auth boundary**.
+Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and **custom AI-powered admin tools** — all sharing **one domain model, media system and auth boundary**.
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://care-bangla-official-site.vercel.app/)
 [![Case Study](https://img.shields.io/badge/Case%20Study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application)
 
-`Next.js 16` `React 18` `MongoDB` `Mongoose` `RTK Query` `GridFS` `Zod` `JWT`
+`Next.js 16` `React 18` `MongoDB` `Mongoose` `RTK Query` `GridFS` `Zod` `JWT` `Custom Admin AI`
 
 </td>
 <td width="50%">
