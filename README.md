@@ -17,6 +17,9 @@
 
 <br/>
 
+<!-- Resume download — own line, self-hosted SVG so it needs no third-party service -->
+[![Download Resume](assets/download-resume.svg)](https://github.com/zakaria-akash/zakaria-akash/raw/main/resume-download/Zakaria_Ibrahim_Resume_2026.pdf)
+
 </div>
 
 ---
