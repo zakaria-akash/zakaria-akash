@@ -34,6 +34,7 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 - 🎓 **BSc in Computer Science & Engineering** — University of Liberal Arts Bangladesh *(CGPA: 3.92)*
 - 💡 Passionate about **React.js, Next.js, Node.js, MongoDB** and modern full-stack architecture
 - 🏥 Owning a **healthcare platform** end to end — APIs, data modelling, design system, CMS & technical SEO
+- 🖥️ Provisioned and operating its **Hostinger KVM VPS** — Ubuntu, Nginx, systemd, native MongoDB, HTTPS, backups and recovery
 - 🌐 Enterprise experience with **Bubble.io** no-code/low-code platform (France & BD clients)
 - 🤖 Exploring **n8n** for intelligent workflow automation
 - 📍 Madani Avenue, Gulshan 2, **Dhaka 1212**, Bangladesh
@@ -59,6 +60,7 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 - Maintain the **in-house CMS** so non-technical staff retain full control of public content, media and page configuration without developer involvement
 - Own **technical SEO and site performance** — structured data, metadata, canonicalisation, redirects, sitemaps and **Core Web Vitals** — safeguarding search rankings as the platform grows
 - Deliver new features and integrations through the **full lifecycle**, from technical design and implementation to deployment, production support and documentation
+- Independently provision and maintain the application's **Linux VPS infrastructure**: SSH access control, UFW/Fail2ban hardening, Nginx reverse proxy, Let's Encrypt TLS, systemd services, native MongoDB administration, automated backups, restore drills and release rollback planning
 
 </td>
 </tr>
@@ -121,14 +123,17 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 <td width="50%">
 
 ### 🏥 Care Bangla
-**Full-Stack Healthcare Operations Platform · Professional**
+**Full-Stack Healthcare Operations & CMS Platform · Professional**
 
-Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and **custom AI-powered admin tools** — all sharing **one domain model, media system and auth boundary**.
+Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and **custom AI-powered admin tools** — all sharing one domain model, media system and authorization boundary.
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://care-bangla-official-site.vercel.app/)
+I also designed and executed its native VPS deployment: **Ubuntu 24.04 + Nginx + systemd + Next.js + MongoDB 8/GridFS**, with loopback service isolation, HTTPS, automated database backups, checksum verification, off-server copies, restore testing and a controlled rollback strategy.
+
+[![VPS Staging](https://img.shields.io/badge/VPS%20Staging-2563EB?style=flat-square&logo=linux&logoColor=white)](https://staging.carebanglabd.tech/)
 [![Case Study](https://img.shields.io/badge/Case%20Study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application)
+[![Deployment Review](https://img.shields.io/badge/Deployment%20Review-059669?style=flat-square&logo=nginx&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application/blob/main/VPS_DEPLOYMENT_OBSERVATION.md)
 
-`Next.js 16` `React 18` `MongoDB` `Mongoose` `RTK Query` `GridFS` `Zod` `JWT` `Custom Admin AI`
+`Next.js 16` `React 18` `MongoDB 8` `Mongoose` `GridFS` `RTK Query` `Zod` `JWT` `Custom Admin AI` `Ubuntu` `Nginx` `systemd`
 
 </td>
 <td width="50%">
@@ -206,7 +211,23 @@ A production-ready fashion storefront with dual-layer authentication, an isolate
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-**🔨 Tools & Platforms**
+**🖥️ VPS, Deployment & Database Operations**
+
+![Linux Server Administration](https://img.shields.io/badge/Linux_Server_Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VPS Installation and Maintenance](https://img.shields.io/badge/VPS_Installation_%26_Maintenance-2563EB?style=for-the-badge&logo=serverfault&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04_LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Hostinger VPS](https://img.shields.io/badge/Hostinger_KVM_VPS-673DE6?style=for-the-badge&logo=hostinger&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx_Reverse_Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![systemd](https://img.shields.io/badge/systemd_Service_Management-0F172A?style=for-the-badge&logo=linux&logoColor=white)
+![Let's Encrypt](https://img.shields.io/badge/Let's_Encrypt_TLS-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH_%26_Server_Hardening-1F2937?style=for-the-badge&logo=openssh&logoColor=white)
+![MongoDB Operations](https://img.shields.io/badge/Native_MongoDB_Operations-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Backup and Recovery](https://img.shields.io/badge/Backup_%26_Restore_Drills-2563EB?style=for-the-badge&logo=databricks&logoColor=white)
+![Release Operations](https://img.shields.io/badge/Deployment_%26_Rollback-7C3AED?style=for-the-badge&logo=githubactions&logoColor=white)
+
+> **Demonstrated infrastructure ownership:** installed and configured a native Next.js/MongoDB VPS stack, isolated application and database listeners, secured public traffic through Nginx and HTTPS, automated logical backups, verified off-server recovery, and documented safe update, rollback and maintenance procedures.
+
+**🔨 Development Tools & Platforms**
 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -231,6 +252,10 @@ A production-ready fashion storefront with dual-layer authentication, an isolate
 ![Technical SEO](https://img.shields.io/badge/Technical_SEO-0F172A?style=for-the-badge&logoColor=white)
 ![Structured Data](https://img.shields.io/badge/Structured_Data-0F172A?style=for-the-badge&logoColor=white)
 ![Core Web Vitals](https://img.shields.io/badge/Core_Web_Vitals-0F172A?style=for-the-badge&logoColor=white)
+![VPS Architecture](https://img.shields.io/badge/VPS_Architecture-0F172A?style=for-the-badge&logoColor=white)
+![Infrastructure Hardening](https://img.shields.io/badge/Infrastructure_Hardening-0F172A?style=for-the-badge&logoColor=white)
+![Backup Strategy](https://img.shields.io/badge/Backup_%26_Disaster_Recovery-0F172A?style=for-the-badge&logoColor=white)
+![Operational Runbooks](https://img.shields.io/badge/Operational_Runbooks-0F172A?style=for-the-badge&logoColor=white)
 
 ---
 
