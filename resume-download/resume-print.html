@@ -383,6 +383,7 @@ table.edu td.center, table.edu th.center { text-align: center; }
     <li><svg class="icon icon-accent"><use href="#i-cap"/></svg> <strong>BSc in Computer Science &amp; Engineering</strong> — University of Liberal Arts Bangladesh <em>(CGPA: 3.92)</em></li>
     <li><svg class="icon icon-accent"><use href="#i-bulb"/></svg> Passionate about <strong>React.js, Next.js, Node.js, MongoDB</strong> and modern full-stack architecture</li>
     <li><svg class="icon icon-accent"><use href="#i-health"/></svg> Owning a <strong>healthcare platform</strong> end to end — APIs, data modelling, design system, CMS &amp; technical SEO</li>
+    <li><svg class="icon icon-accent"><use href="#i-globe"/></svg> Provisioned and operating its <strong>Hostinger KVM VPS</strong> — Ubuntu, Nginx, systemd, native MongoDB, HTTPS, backups and recovery</li>
     <li><svg class="icon icon-accent"><use href="#i-globe"/></svg> Enterprise experience with <strong>Bubble.io</strong> no-code/low-code platform (France &amp; BD clients)</li>
     <li><svg class="icon icon-accent"><use href="#i-bot"/></svg> Exploring <strong>n8n</strong> for intelligent workflow automation</li>
   </ul>
@@ -406,6 +407,7 @@ table.edu td.center, table.edu th.center { text-align: center; }
       <li>Maintain the <strong>in-house CMS</strong> so non-technical staff retain full control of public content, media and page configuration without developer involvement</li>
       <li>Own <strong>technical SEO and site performance</strong> — structured data, metadata, canonicalisation, redirects, sitemaps and <strong>Core Web Vitals</strong> — safeguarding search rankings as the platform grows</li>
       <li>Deliver new features and integrations through the <strong>full lifecycle</strong>, from technical design and implementation to deployment, production support and documentation</li>
+      <li>Independently provision and maintain the application's <strong>Linux VPS infrastructure</strong>: SSH access control, UFW/Fail2ban hardening, Nginx reverse proxy, Let's Encrypt TLS, systemd services, native MongoDB administration, automated backups, restore drills and release rollback planning</li>
     </ul>
   </div>
 
@@ -469,13 +471,15 @@ table.edu td.center, table.edu th.center { text-align: center; }
 
     <div class="proj">
       <h3><span class="emoji">🏥</span> Care Bangla</h3>
-      <div class="sub">Full-Stack Healthcare Operations Platform · Professional</div>
-      <p class="desc">Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal and a self-built staff CMS — all sharing <strong>one domain model, media system and auth boundary</strong>.</p>
+      <div class="sub">Full-Stack Healthcare Operations &amp; CMS Platform · Professional</div>
+      <p class="desc">Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and <strong>custom AI-powered admin tools</strong> — all sharing one domain model, media system and authorization boundary.</p>
+      <p class="desc">Designed and executed its native VPS deployment: <strong>Ubuntu 24.04 + Nginx + systemd + Next.js + MongoDB 8/GridFS</strong>, with service isolation, HTTPS, automated backups, restore testing and controlled rollback.</p>
       <div class="links">
-        <a class="lnk demo" href="https://care-bangla-official-site.vercel.app/">Live Site</a>
+        <a class="lnk demo" href="https://www.carebanglabd.tech/">Production Website</a>
         <a class="lnk src" href="https://github.com/zakaria-akash/care-bangla-group-web-application">Case Study</a>
+        <a class="lnk demo" href="https://github.com/zakaria-akash/care-bangla-group-web-application/blob/main/VPS_DEPLOYMENT_OBSERVATION.md">Deployment Review</a>
       </div>
-      <div class="tags"><span class="tag">Next.js 16</span><span class="tag">React 18</span><span class="tag">MongoDB</span><span class="tag">RTK Query</span><span class="tag">GridFS</span></div>
+      <div class="tags"><span class="tag">Next.js 16</span><span class="tag">React 18</span><span class="tag">MongoDB 8</span><span class="tag">RTK Query</span><span class="tag">GridFS</span><span class="tag">Nginx</span></div>
     </div>
 
     <div class="proj">
@@ -566,6 +570,22 @@ table.edu td.center, table.edu th.center { text-align: center; }
   </div>
 
   <div class="stack-group">
+    <div class="stack-label">VPS, Deployment &amp; Database Operations</div>
+    <div class="chips">
+      <span class="chip dark-text" style="background:#FCC624">Linux Server Administration</span>
+      <span class="chip" style="background:#E95420">Ubuntu 24.04 LTS</span>
+      <span class="chip" style="background:#673DE6">Hostinger KVM VPS</span>
+      <span class="chip" style="background:#009639">Nginx Reverse Proxy</span>
+      <span class="chip" style="background:#0F172A">systemd</span>
+      <span class="chip" style="background:#003A70">Let's Encrypt TLS</span>
+      <span class="chip" style="background:#1F2937">SSH &amp; Server Hardening</span>
+      <span class="chip" style="background:#47A248">MongoDB Operations</span>
+      <span class="chip" style="background:#2563EB">Backup &amp; Recovery</span>
+      <span class="chip" style="background:#7C3AED">Deployment &amp; Rollback</span>
+    </div>
+  </div>
+
+  <div class="stack-group">
     <div class="stack-label">Architecture &amp; Practices</div>
     <div class="chips">
       <span class="chip outline">System Design</span>
@@ -580,6 +600,10 @@ table.edu td.center, table.edu th.center { text-align: center; }
       <span class="chip outline">Technical SEO</span>
       <span class="chip outline">Structured Data</span>
       <span class="chip outline">Core Web Vitals</span>
+      <span class="chip outline">VPS Architecture</span>
+      <span class="chip outline">Infrastructure Hardening</span>
+      <span class="chip outline">Backup &amp; Disaster Recovery</span>
+      <span class="chip outline">Operational Runbooks</span>
     </div>
   </div>
 </section>
