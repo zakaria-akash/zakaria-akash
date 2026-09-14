@@ -12,7 +12,15 @@
 
 @page {
   size: A4;
-  margin: 0;
+  /* Continuation pages have the requested 2rem-like breathing room above
+     and below their content. */
+  margin: 8.5mm 0;
+}
+
+/* Keep the hero flush to the first page edge while preserving its bottom
+   breathing room. */
+@page :first {
+  margin: 0 0 8.5mm;
 }
 
 :root {
@@ -35,8 +43,8 @@ html, body {
   color: var(--fg);
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
     Arial, sans-serif;
-  font-size: 8.2pt;
-  line-height: 1.28;
+  font-size: 8.7pt;
+  line-height: 1.54;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -87,15 +95,15 @@ a { color: var(--accent); text-decoration: none; }
 .hero-text { flex: 1; min-width: 0; }
 .hero h1 {
   margin: 0 0 .4mm;
-  font-size: 19pt;
+  font-size: 19.5pt;
   font-weight: 700;
   letter-spacing: -.02em;
-  line-height: 1.1;
+  line-height: 1.3;
   color: #0d1117;
 }
 .hero .role {
   margin: 0 0 1.5mm;
-  font-size: 9.8pt;
+  font-size: 10.3pt;
   font-weight: 600;
   color: var(--accent);
   letter-spacing: .01em;
@@ -104,7 +112,7 @@ a { color: var(--accent); text-decoration: none; }
   display: flex;
   flex-wrap: wrap;
   gap: 1mm 3.5mm;
-  font-size: 7.8pt;
+  font-size: 8.3pt;
   color: var(--fg-muted);
 }
 .hero .contact span { display: inline-flex; align-items: center; gap: 1mm; }
@@ -122,22 +130,22 @@ a { color: var(--accent); text-decoration: none; }
 /* ---------- Page body ---------- */
 .wrap { padding: 0 11mm 2.5mm; }
 
-section { margin-top: 2.2mm; }
+section { margin-top: 2.3mm; }
 
 h2 {
-  margin: 0 0 1.2mm;
-  padding-bottom: .7mm;
+  margin: 0 0 1.4mm;
+  padding-bottom: .8mm;
   border-bottom: 1px solid var(--border);
-  font-size: 10.8pt;
+  font-size: 11.3pt;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.45;
   color: #0d1117;
   break-after: avoid;
   page-break-after: avoid;
 }
 h2 .emoji { margin-right: 1.5mm; }
 
-p { margin: 0 0 1.3mm; }
+p { margin: 0 0 1.2mm; }
 strong { font-weight: 600; color: #0d1117; }
 
 ul { margin: 0; padding-left: 4mm; }
@@ -146,23 +154,23 @@ li::marker { color: var(--fg-subtle); }
 
 /* ---------- About ---------- */
 .summary {
-  font-size: 8.5pt;
-  line-height: 1.31;
+  font-size: 9pt;
+  line-height: 1.51;
   color: #24292f;
   margin-bottom: 1.2mm;
 }
 .about-list { columns: 1; }
-.about-list li { margin-bottom: .25mm; }
+.about-list li { margin-bottom: .2mm; }
 
 /* ---------- Experience ---------- */
 .job {
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 1.5mm 2.3mm 1.3mm;
-  margin-bottom: .8mm;
+  padding: 1.3mm 2.2mm 1.1mm;
+  margin-bottom: .7mm;
   background: var(--white);
-  break-inside: auto;
-  page-break-inside: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 .job.current { background: #f6f9fc; border-color: #c8d9ec; }
 .job-head {
@@ -170,14 +178,14 @@ li::marker { color: var(--fg-subtle); }
   align-items: baseline;
   justify-content: space-between;
   gap: 2.5mm;
-  margin-bottom: .35mm;
+  margin-bottom: .3mm;
 }
-.job-title { font-size: 9.2pt; font-weight: 600; color: #0d1117; }
+.job-title { font-size: 9.7pt; font-weight: 600; color: #0d1117; }
 .job-title .dot { margin-right: .9mm; }
 .date-pill {
   flex-shrink: 0;
   font-family: Consolas, "SF Mono", Menlo, monospace;
-  font-size: 7.1pt;
+  font-size: 7.6pt;
   font-weight: 600;
   color: var(--fg-muted);
   background: #eff2f5;
@@ -187,54 +195,55 @@ li::marker { color: var(--fg-subtle); }
   white-space: nowrap;
 }
 .job-meta {
-  font-size: 7.7pt;
+  font-size: 8.2pt;
   color: var(--fg-muted);
-  margin-bottom: .7mm;
+  margin-bottom: .6mm;
 }
 .job-meta .co { font-weight: 600; color: #0d1117; }
 .job-meta a.co { color: var(--accent); }
-.job ul { font-size: 8pt; line-height: 1.23; }
+.job ul { font-size: 8.5pt; line-height: 1.48; }
 
 /* ---------- Projects ---------- */
-.projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.7mm;
-}
+.projects { font-size: 0; }
 .proj {
+  display: inline-block;
+  width: calc(50% - 1.2mm);
+  margin: 0 2mm 2mm 0;
+  vertical-align: top;
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 1.5mm 2mm;
+  padding: 1.3mm 1.9mm;
   background: var(--white);
   break-inside: avoid;
   page-break-inside: avoid;
 }
+.proj:nth-child(2n) { margin-right: 0; }
 .proj h3 {
   margin: 0 0 .35mm;
-  font-size: 8.9pt;
+  font-size: 9.4pt;
   font-weight: 600;
   color: #0d1117;
 }
 .proj .sub {
-  font-size: 7.4pt;
+  font-size: 7.9pt;
   font-weight: 600;
   color: var(--fg-muted);
-  margin-bottom: .7mm;
+  margin-bottom: .5mm;
 }
 .proj p.desc {
-  font-size: 7.5pt;
-  line-height: 1.22;
-  margin-bottom: .8mm;
+  font-size: 8pt;
+  line-height: 1.48;
+  margin-bottom: .6mm;
   color: #32383f;
 }
 .proj .links {
   display: flex;
   flex-wrap: wrap;
-  gap: .8mm;
-  margin-bottom: .8mm;
+  gap: .7mm;
+  margin-bottom: .6mm;
 }
 .lnk {
-  font-size: 6.7pt;
+  font-size: 7.2pt;
   font-weight: 600;
   border-radius: 2px;
   padding: .35mm 1mm;
@@ -242,10 +251,10 @@ li::marker { color: var(--fg-subtle); }
 }
 .lnk.demo { background: #00a693; }
 .lnk.src { background: #24292f; }
-.tags { display: flex; flex-wrap: wrap; gap: .7mm; }
+.tags { display: flex; flex-wrap: wrap; gap: .6mm; }
 .tag {
   font-family: Consolas, "SF Mono", Menlo, monospace;
-  font-size: 6.4pt;
+  font-size: 6.9pt;
   color: var(--fg-muted);
   background: #eff2f5;
   border-radius: 2px;
@@ -253,23 +262,23 @@ li::marker { color: var(--fg-subtle); }
 }
 
 /* ---------- Tech stack ---------- */
-.stack-group { margin-bottom: .8mm; break-inside: auto; page-break-inside: auto; }
+.stack-group { margin-bottom: .6mm; break-inside: auto; page-break-inside: auto; }
 .stack-label {
-  font-size: 7.7pt;
+  font-size: 8.2pt;
   font-weight: 600;
   color: #0d1117;
-  margin-bottom: .5mm;
+  margin-bottom: .4mm;
 }
-.chips { display: flex; flex-wrap: wrap; gap: .6mm; }
+.chips { display: flex; flex-wrap: wrap; gap: .5mm; }
 .chip {
-  font-size: 6.1pt;
+  font-size: 6.6pt;
   font-weight: 700;
   letter-spacing: .04em;
   text-transform: uppercase;
   color: #fff;
   border-radius: 2px;
   padding: .35mm 1mm;
-  line-height: 1.2;
+  line-height: 1.4;
   white-space: nowrap;
 }
 .chip.dark-text { color: #1f2328; }
@@ -285,7 +294,7 @@ li::marker { color: var(--fg-subtle); }
 table.edu {
   width: 100%;
   border-collapse: collapse;
-  font-size: 7.8pt;
+  font-size: 8.3pt;
   break-inside: avoid;
   page-break-inside: avoid;
 }
@@ -297,15 +306,15 @@ table.edu th, table.edu td {
 table.edu th {
   background: var(--surface);
   font-weight: 600;
-  font-size: 7.4pt;
+  font-size: 7.9pt;
   color: #0d1117;
 }
 table.edu td.center, table.edu th.center { text-align: center; }
 
 /* ---------- Closing ---------- */
 .closing {
-  margin-top: 1.8mm;
-  padding: 1.5mm;
+  margin-top: 1.3mm;
+  padding: 1.2mm;
   border: 1px solid var(--border);
   border-top: 2px solid var(--accent);
   border-radius: 4px;
@@ -315,17 +324,17 @@ table.edu td.center, table.edu th.center { text-align: center; }
   page-break-inside: avoid;
 }
 .closing .headline {
-  font-size: 8.6pt;
+  font-size: 9.1pt;
   font-weight: 600;
   color: #0d1117;
-  margin-bottom: .7mm;
+  margin-bottom: .6mm;
 }
 .closing .line {
-  font-size: 7.6pt;
+  font-size: 8.1pt;
   color: var(--fg-muted);
-  margin-bottom: .7mm;
+  margin-bottom: .6mm;
 }
-.closing .note { font-size: 7.2pt; color: var(--fg-subtle); font-style: italic; margin: 0; }
+.closing .note { font-size: 7.7pt; color: var(--fg-subtle); font-style: italic; margin: 0; }
 
 .sep { color: var(--border); margin: 0 1mm; }
 </style>
