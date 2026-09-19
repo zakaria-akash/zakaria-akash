@@ -125,15 +125,15 @@ I'm a **Full-Stack Web Developer** from Dhaka, Bangladesh with a passion for bui
 ### 🏥 Care Bangla
 **Full-Stack Healthcare Operations & CMS Platform · Professional**
 
-Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and **custom AI-powered admin tools** — all sharing one domain model, media system and authorization boundary.
+Bilingual (EN/BN) healthcare platform unifying a public site, care-service bookings, medical-equipment commerce, a customer portal, an in-house staff CMS, and **custom AI-powered admin tools** — all sharing one domain model, media system and authorization boundary. It includes structured SEO/JSON-LD, sitemap-ready public content, GridFS-managed media, staff content-health review, and human-reviewed AI writing proposals.
 
 I also designed and executed its native VPS deployment: **Ubuntu 24.04 + Nginx + systemd + Next.js + MongoDB 8/GridFS**, with loopback service isolation, HTTPS, automated database backups, checksum verification, off-server copies, restore testing and a controlled rollback strategy.
 
-[![Production Website](https://img.shields.io/badge/Production%20Website-059669?style=flat-square&logo=linux&logoColor=white)](https://www.carebanglabd.tech/)
+[![Production Website](https://img.shields.io/badge/Production%20Website-059669?style=flat-square&logo=linux&logoColor=white)](https://www.carebangla.com.bd/)
 [![Case Study](https://img.shields.io/badge/Case%20Study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application)
 [![Deployment Review](https://img.shields.io/badge/Deployment%20Review-059669?style=flat-square&logo=nginx&logoColor=white)](https://github.com/zakaria-akash/care-bangla-group-web-application/blob/main/VPS_DEPLOYMENT_OBSERVATION.md)
 
-`Next.js 16` `React 18` `MongoDB 8` `Mongoose` `GridFS` `RTK Query` `Zod` `JWT` `Custom Admin AI` `Ubuntu` `Nginx` `systemd`
+`Next.js 16` `React 18` `MongoDB 8` `Mongoose` `GridFS` `RTK Query` `Zod` `JWT` `SEO / JSON-LD` `Bilingual EN/BN` `Custom Admin AI` `Ubuntu` `Nginx` `systemd`
 
 </td>
 <td width="50%">
